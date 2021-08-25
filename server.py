@@ -8,7 +8,7 @@ app.jinja_env.undefined = StrictUndefined
 
 @app.route("/")
 def hello():
-    return render_template("base.html")
+    return render_template("homepage.html")
 
 
 if __name__ == "__main__":
